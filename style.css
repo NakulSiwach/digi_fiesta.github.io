@@ -1,0 +1,236 @@
+*{margin: 0;
+  padding: 0;
+}
+.nav-bar{
+  border: solid black;
+  border-style: hidden;
+  border-bottom-style: dashed;
+  background-color: Plum;
+
+  display: flex;
+}
+.menu{
+  width:65%;
+  display:flex;
+}
+.logo{
+  width: 15%;
+  margin-left: 5%
+}
+.lisst{
+  display: flex;
+  justify-content:center;
+  padding-bottom: 37px;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.lisst li{
+  display: flex;
+  list-style: none;
+  margin-left: 65px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+.lisst li:hover{
+  display: flex;
+  list-style: none;
+  margin-left: 65px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.7
+}
+.search{
+  width: 50%;
+}
+.search button{
+  width: 10%;
+  border-radius: 10px;
+  background-color:LightGreen;
+  opacity: 0.8
+}
+.search button:hover{
+  width: 10%;
+  border-radius: 10px;
+  background-color:DarkOliveGreen;
+}
+.search input{
+  opacity: 0.7;
+  border-radius: 5px;
+}
+.input1{
+  margin-left: 50%;
+  margin-top: 9%
+}
+
+.section1{
+  background-color: #FB847E;
+  background-image: linear-gradient(90deg, #85FFBD 0%, #FFFB7D 100%);
+  display: flex;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  padding-bottom: 20px;
+}
+.picture1{
+  width: 40%;
+  padding-top: 6%;
+  margin-left: 60px;
+  align-items: center;
+}
+.text1{
+  margin-left: ;
+  width: 50%;
+  justify-content: center;
+  align-items:center;
+    padding-bottom: 40px;
+}
+.text1 h1{
+  margin-left: 15%;
+  margin-top: 5%;
+  font-size: 4em
+}
+.text1 h3{
+  font-style: italic;
+  margin-left: 28%;
+  font-size: 1.5em
+}
+.text1 p{
+  font-style: italic;
+  margin-left: 10%;
+  text-align: center;
+  padding: 10%;
+  padding-bottom:3%;
+  font-size: 1.2em;
+}
+
+.text1 button{
+  background-image: linear-gradient(90deg, #85FFBD 0%, #FFFB7D 100%);
+}
+.text1 button:hover{
+  text-align: center;
+  marginleft: 80%;
+  transform: scale(1.2);
+  transition: transform 0.2s;
+  background-image: linear-gradient(to top right, #FFFB7D 100%,  #85FFBD );
+}
+.text1 button{
+  padding: 5px;
+  margin-left: 60%;
+  border-radius: 10px;
+}
+.centre-info-1{
+  text-align: center;
+}
+.centre-info-1 ul{
+  font-size: 3em;
+  list-style: none;
+  display: flex;
+  padding:10%;
+  margin-left: 180px;
+  padding-bottom: 50px;
+}
+.centre-info-1 li{
+  padding: 20px;
+  padding-bottom: 0px;
+}
+.centre-info-1 h6{
+  font-size: 1.3em;
+  font-weight: lighter;
+  margin-left: 50px;
+  padding: 10px;
+  max-width:
+
+}
+.centre-info-1 p{
+  font-size: 2.5em;
+}
+
+.last-img{
+  margin-left:3%;
+  opacity: 0.;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.last-img:hover{
+  opacity: 0.7;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.content-1{
+  display: flex;
+  padding-bottom: 100px;
+}
+.c1-text {
+  align-items:center;
+  width: 60%;
+}
+.c1-text h1{
+  font-size: 3em;
+  padding: 9%;
+  font-family: monospace;
+}
+.c1-text p{
+  align-self: center;
+  margin-left: 5%;
+  font-size: 1.4em;
+  text-align: center;
+  max-width: 60%;
+  margin-left: 15%
+}
+.c1-image{
+  width: 40%;
+}
+.c1-image img{
+  width: 300px;
+  height: 300px;
+  padding-top: 20%;
+  transition: transform .4s;
+}
+.c1-image img:hover{
+  transform: scale(1.5);
+}
+.content-2{
+  opacity: 0.8;
+  background-image: url("https://onlinedst.gov.in/Img/slider3.gif");
+  height: 600px;
+  background-position: center;
+  backface-visibility: 0.5;
+}
+.content-2 h1{
+  color:YellowGreen;
+  font-family:monospace;
+  text-shadow: -1px 1px 0 blue,
+                          1px 1px 0 black,
+                         1px -1px 0 black,
+                        -1px -1px 0 black;
+  margin-left: 13%;
+  padding: 7%;
+  font-size: 4em;
+}
+.content-2 p{
+  background-color: lightgrey;
+  color:Green;
+  font-family:monospace;
+  text-align: center;
+  max-width: 70%;
+  margin-left:13%;
+  font-size: 30px;
+}
+
+
+.section-final{
+  background-color: darkgrey;
+}
+.section-final h1{
+  text-align: center;
+  font-size: 3em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-style: oblique;
+}
+.section-final p{
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+}
